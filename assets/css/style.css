@@ -1,0 +1,68 @@
+body{
+    background: url("../images/flag6.png");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+footer { 
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.div{
+    display: none;
+    /* word-break: break-all; */
+   
+    width: 150px;
+    
+    word-wrap: break-word;
+
+}
+
+h1{
+    font: 75px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 30px;
+
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+#displayTweets, #displayAnalysis, #displayArticles{
+    display: none;
+
+    
+}
+
+/* textanalysis.js things */
+.posBar {
+    height: 20px;
+    width: 10%;
+    float: left;
+}
+
+.container {
+    background:	rgba(238, 238, 238, 0.8);
+}
+
+#positiveNegative {
+    margin: auto;
+    text-align: center;
+    float: none;
+}
+
+#analysis {
+    margin-top: 20px;
+}
